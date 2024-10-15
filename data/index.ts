@@ -1,7 +1,8 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Wallet Connect", link: "#" },
+  { name: "Feature", link: "#about" },
+  // { name: "More", link: "#More" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -13,7 +14,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "Text.gif",
+    img: "Grid.gif",
     spareImg: "",
   },
   {
@@ -205,13 +206,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/ramxcodes",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/ramxcodes", 
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/ramcodes", 
+  },
+  {
+    id: 4,
+    img: "/insta.svg",
+    link: "https://instagram.com/__ramfr", 
   },
 ];

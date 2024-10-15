@@ -15,7 +15,7 @@ const Approach = () => {
         <Card
           title="Connect Wallets"
           icon={<AceternityIcon order="Phase 1" />}
-          des="Effortlessly connect all your crypto wallets and exchanges to CoinStats in just a few clicks, enabling unified management of your entire portfolio from a single dashboard."
+          des="Effortlessly connect all your crypto wallets and exchanges to Wallet Sync in just a few clicks, enabling unified management of your entire portfolio from a single dashboard."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,7 +26,7 @@ const Approach = () => {
         <Card
           title="Analyze Performance"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Leverage advanced analytics and insights on CoinStats to monitor portfolio performance, identify top gainers and losers, and optimize your investment strategy for maximum growth."
+          des="Leverage advanced analytics and insights on Wallet Sync to monitor portfolio performance, identify top gainers and losers, and optimize your investment strategy for maximum growth."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -46,7 +46,7 @@ const Approach = () => {
         <Card
           title="Secure Assets"
           icon={<AceternityIcon order="Phase 3" />}
-          des="Protect your digital assets with CoinStats' military-grade encryption and robust security measures, ensuring safe and secure management of your portfolio against both internal and external threats."
+          des="Protect your digital assets with Wallet Sync' military-grade encryption and robust security measures, ensuring safe and secure management of your portfolio against both internal and external threats."
         >
           <CanvasRevealEffect
             animationSpeed={3}

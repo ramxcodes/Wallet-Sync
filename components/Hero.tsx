@@ -1,5 +1,5 @@
 import { useEffect, useState, Suspense, useRef } from "react";
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { Line } from "react-chartjs-2";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -274,7 +274,7 @@ const Hero = () => {
         <div className="flex justify-center relative my-20">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
             <p className="tracking-widest text-xs text-center text-blue-100 max-w-80">
-              #BuildWithCoinPackage
+              #BuildWithWalletSync
             </p>
 
             <TextGenerateEffect
@@ -286,10 +286,10 @@ const Hero = () => {
               Connect all your wallets and exchanges in a few clicks.
             </p>
 
-            <a href="#about">
+            <a href="https://www.linkedin.com/in/ramcodes/">
               <MagicButton
-                title="Connect your Wallet"
-                icon={<FaLocationArrow />}
+                title="Connect on"
+                icon={<FaLinkedinIn />}
                 position="right"
               />
             </a>
