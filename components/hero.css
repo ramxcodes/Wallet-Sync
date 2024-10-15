@@ -1,0 +1,77 @@
+.cryptoTable {
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(rgba(84,3,255,0.15),  rgba(105,2,153,0.15));
+    border-radius: 15px;
+}
+.table-layout {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    padding: 15px 20px;
+    align-items: center;
+    border-bottom: 1px solid #3c3c3c;
+}
+
+.market-cap{
+    text-align: right;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* Ensure modal is above other content */
+}
+
+.modal-content {
+    background: linear-gradient(rgba(27, 0, 87, 0.699), rgba(72, 0, 105, 0.705));
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.719);
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.modal-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.coin-details-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.coin-info {
+    text-align: left;
+}
+
+.graph-placeholder {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    height: 200px;
+}
